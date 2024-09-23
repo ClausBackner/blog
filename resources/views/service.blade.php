@@ -55,7 +55,7 @@
         <div class="contenido-card">
             <h3>Rayos X</h3>
             <p>Las radiografías dentales son un tipo de imagen de los dientes y la boca.</p>
-            <a href="#">Leer Màs</a>
+            <a href="{{route('rayos')}}">Leer Màs</a>
         </div>
     </div>
     <div class="card">
@@ -65,7 +65,7 @@
         <div class="contenido-card">
             <h3>Ortodoncias</h3>
             <p>La ortodoncia lingual consiste en el cementado de Brackets de forma individualizada a la anatomía de cada diente</p>
-            <a href="#">Leer Màs</a>
+            <a href="{{route('ortodoncia')}}">Leer Màs</a>
         </div>
     </div>
     <div class="card">

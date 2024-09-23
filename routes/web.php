@@ -10,6 +10,10 @@ Route::view('blog', 'blog')->name('blog');
 Route::view('restauraciones', 'restauraciones')->name('restauraciones');
 Route::view('profilaxis', 'profilaxis')->name('profilaxis');
 Route::view('blanqueamiento', 'blanqueamiento')->name('blanqueamiento');
+Route::view('rayos', 'rayos')->name('rayos');
+Route::view('ortodoncia','ortodoncia')->name('ortodoncia');
+
+
 
 
 Route::get('/dashboard', function () {
