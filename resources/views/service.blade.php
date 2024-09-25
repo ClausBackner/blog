@@ -21,7 +21,7 @@
         <div class="contenido-card">
             <h3>Restauraciones</h3>
             <p>La restauración dental permite recuperar la estructura y anatomía de dientes dañados mediante la aplicación de técnicas y materiales específicos.</p>
-            <a href="{{route('restauraciones')}}">Leer Màs</a>
+            <a href="{{route('servicios.restauraciones')}}">Leer Màs</a>
         </div>
     </div>
     <div class="card">
@@ -31,7 +31,7 @@
         <div class="contenido-card">
             <h3>profilaxis</h3>
             <p> La profilaxis dental es el término técnico que se refiere a una limpieza dental llevada a cabo por un odontólogo o por una higienista dental por prescripción del odontólogo.</p>
-            <a href="{{route('profilaxis')}}">Leer Màs</a>
+            <a href="{{route('servicios.profilaxis')}}">Leer Màs</a>
         </div>
     </div>
     <div class="card">
@@ -41,7 +41,7 @@
         <div class="contenido-card">
             <h3>Blanqueamientos</h3>
             <p>El blanqueamiento dental consiste en un tratamiento no invasivo que mejora la apariencia de los dientes, aclarándolos y dejándolos más blancos.</p>
-            <a href="{{route('blanqueamiento')}}">Leer Màs</a>
+            <a href="{{route('servicios.blanqueamiento')}}">Leer Màs</a>
         </div>
     </div>
 
@@ -55,7 +55,7 @@
         <div class="contenido-card">
             <h3>Rayos X</h3>
             <p>Las radiografías dentales son un tipo de imagen de los dientes y la boca.</p>
-            <a href="{{route('rayos')}}">Leer Màs</a>
+            <a href="{{route('servicios.rayos')}}">Leer Màs</a>
         </div>
     </div>
     <div class="card">
@@ -65,7 +65,7 @@
         <div class="contenido-card">
             <h3>Ortodoncias</h3>
             <p>La ortodoncia lingual consiste en el cementado de Brackets de forma individualizada a la anatomía de cada diente</p>
-            <a href="{{route('ortodoncia')}}">Leer Màs</a>
+            <a href="{{route('servicios.ortodoncia')}}">Leer Màs</a>
         </div>
     </div>
     <div class="card">
@@ -75,7 +75,7 @@
         <div class="contenido-card">
             <h3>Extracciones</h3>
             <p>Una extracción dental es un procedimiento para extraer un diente de la encía.</p>
-            <a href="#">Leer Màs</a>
+            <a href="{{route('servicios.extraccion')}}">Leer Màs</a>
         </div>
     </div>
 
@@ -89,7 +89,7 @@
         <div class="contenido-card">
             <h3>Cirugias</h3>
             <p>La cirugía oral es aquella que se realiza en la boca, conocida en odontología como cavidad oral</p>
-            <a href="#">Leer Màs</a>
+            <a href="{{route('servicios.cirugia')}}">Leer Màs</a>
         </div>
     </div>
     <div class="card">
@@ -99,7 +99,7 @@
         <div class="contenido-card">
             <h3>Endodoncias</h3>
             <p>La endodoncia es un tratamiento para dientes infectados o descompuestos gravemente cuya causa parte del nervio del diente</p>
-            <a href="#">Leer Màs</a>
+            <a href="{{route('servicios.endodoncia')}}">Leer Màs</a>
         </div>
     </div>
     <div class="card">
@@ -109,7 +109,7 @@
         <div class="contenido-card">
             <h3>Protesis</h3>
             <p>La prótesis dental es una estructura metálica con varios dientes artificiales que se ancla a los dientes y sirve para reponer las piezas ausentes o estructuras óseas que se han reabsorbido a lo largo del tiempo con la pérdida de los dientes naturales.</p>
-            <a href="#">Leer Màs</a>
+            <a href="{{route('servicios.protesis')}}">Leer Màs</a>
         </div>
     </div>
 

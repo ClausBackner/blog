@@ -26,15 +26,15 @@
             <li>
                 <a href="{{route('servicios')}}">Servicios</a>
                 <ul class="dropdown-list">
-                    <li><a href="{{route('restauraciones')}}">Restauraciones</a></li>
-                    <li><a href="{{route('profilaxis')}}">Profilaxis</a></li>
-                    <li><a href="{{route('blanqueamiento')}}">Blanqueamiento</a></li>
-                    <li><a href="{{route('ortodoncia')}}">Ortodoncias</a></li>
-                    <li><a href="#">Extracciones</a></li>
-                    <li><a href="#">Cirugias</a></li>
-                    <li><a href="#">Endodoncias</a></li>
-                    <li><a href="#">Prótesis</a></li>
-                    <li><a href="{{route('rayos')}}">Rayos x</a></li>
+                    <li><a href="{{route('servicios.restauraciones')}}">Restauraciones</a></li>
+                    <li><a href="{{route('servicios.profilaxis')}}">Profilaxis</a></li>
+                    <li><a href="{{route('servicios.blanqueamiento')}}">Blanqueamiento</a></li>
+                    <li><a href="{{route('servicios.ortodoncia')}}">Ortodoncias</a></li>
+                    <li><a href="{{route('servicios.extraccion')}}">Extracciones</a></li>
+                    <li><a href="{{route('servicios.cirugia')}}">Cirugias</a></li>
+                    <li><a href="{{route('servicios.endodoncia')}}">Endodoncias</a></li>
+                    <li><a href="{{route('servicios.protesis')}}">Prótesis</a></li>
+                    <li><a href="{{route('servicios.rayos')}}">Rayos x</a></li>
                 </ul>
             </li>
             <li><a href="#">Q&A</a></li>
