@@ -10,58 +10,18 @@
 </head>
 <body>
 @include('partials.navegation')
-<h2 class="titulo">Slider automatico</h2>
-<div class="slider-box">
-    <ul>
-        <li>
-            <img src="https://www.colgate.com/content/dam/cp-sites/oral-care/oral-care-center/global/article/gscp/latam/cheerful-man-dentist-talking.jpg" alt="">
-            <div class="texto">
-                <h2>imagen 1</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Accusantium blanditiis consectetur, dolorem dolores ea eaque
-                    exercitationem id illum laborum magnam, natus nisi nulla perspiciatis
-                    soluta, totam velit vero voluptas voluptate.
-                </p>
-            </div>
-        </li>
-        <li>
-            <img src="https://www.clinicasonrisasegura.pe/wp-content/uploads/2023/08/Extraccion-de-dientes.webp" alt="">
-            <div class="texto">
-                <h2>imagen 2</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Accusantium blanditiis consectetur, dolorem dolores ea eaque
-                    exercitationem id illum laborum magnam, natus nisi nulla perspiciatis
-                    soluta, totam velit vero voluptas voluptate.
-                </p>
-            </div>
-        </li>
-        <li>
-            <img src="https://soluciondental.pe/wp-content/uploads/2019/01/profilaxis-dental-profunda.jpg" alt="">
-            <div class="texto">
-                <h2>imagen 3</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Accusantium blanditiis consectetur, dolorem dolores ea eaque
-                    exercitationem id illum laborum magnam, natus nisi nulla perspiciatis
-                    soluta, totam velit vero voluptas voluptate.
-                </p>
-            </div>
-        </li>
-        <li>
-            <img src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_590,h_350/https://www.alfadent.com.pe/wp-content/uploads/2020/04/590x350-restauraciones-2.jpg" alt="">
-            <div class="texto">
-                <h2>imagen 4</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Accusantium blanditiis consectetur, dolorem dolores ea eaque
-                    exercitationem id illum laborum magnam, natus nisi nulla perspiciatis
-                    soluta, totam velit vero voluptas voluptate.
-                </p>
-            </div>
-        </li>
-    </ul>
+<div class="tam">
+    <div class="slider">
+        <ul>
+            <li><img src="https://www.colgate.com/content/dam/cp-sites/oral-care/oral-care-center/global/article/gscp/latam/cheerful-man-dentist-talking.jpg" alt=""></li>
+            <li><img src="https://cdn.prod.website-files.com/66183cdcc69331bd58af1786/66646552144fb707a8d2b6a0_22-1024x731.jpeg" alt=""></li>
+            <li><img src="https://www.postgradounab.cl/wp-content/uploads/2022/10/400x243-Conoce-los-5-tipos-de-cirugia-dental-mas-requeridas.jpg" alt=""></li>
+            <li><img src="https://cdn.prod.website-files.com/66183cdcc69331bd58af1786/66646552144fb707a8d2b6a0_22-1024x731.jpeg" alt=""></li>
+        </ul>
+
+    </div>
 </div>
+
+
 </body>
 </html>
