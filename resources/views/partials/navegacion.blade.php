@@ -25,7 +25,7 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li>
-                        <a href="#" class="nav__link">Home</a>
+                        <a href="{{route('home')}}" class="nav__link">Home</a>
                     </li>
 
                     <!--=============== DROPDOWN 1 ===============-->
@@ -41,17 +41,17 @@
                                         <i class="ri-flashlight-line"></i>
                                     </div>
 
-                                    <span class="dropdown__title">Most viewed courses</span>
+                                    <span class="dropdown__title">Citas Medicas</span>
 
                                     <ul class="dropdown__list">
                                         <li>
-                                            <a href="#" class="dropdown__link">HTML for beginners</a>
+                                            <a href="{{route('blog')}}" class="dropdown__link">Por categorias</a>
                                         </li>
                                         <li>
-                                            <a href="#" class="dropdown__link">Advanced CSS</a>
+                                            <a href="{{route('blog')}}" class="dropdown__link">Consulta</a>
                                         </li>
                                         <li>
-                                            <a href="#" class="dropdown__link">JavaScript OOP</a>
+                                            <a href="{{route('blog')}}" class="dropdown__link">Emergencia</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -61,60 +61,22 @@
                                         <i class="ri-heart-3-line"></i>
                                     </div>
 
-                                    <span class="dropdown__title">Popular courses</span>
+                                    <span class="dropdown__title">Consulta de Comprobante</span>
 
                                     <ul class="dropdown__list">
                                         <li>
-                                            <a href="#" class="dropdown__link">Development with Flutter</a>
+                                            <a href="{{route('blog')}}" class="dropdown__link">Cita Registrada</a>
                                         </li>
                                         <li>
-                                            <a href="#" class="dropdown__link">Web development with React</a>
+                                            <a href="{{route('blog')}}" class="dropdown__link">Historial medico</a>
                                         </li>
                                         <li>
-                                            <a href="#" class="dropdown__link">Backend development expert</a>
+                                            <a href="{{route('blog')}}" class="dropdown__link">Comprobacion de Citas</a>
                                         </li>
                                     </ul>
                                 </div>
 
-                                <div class="dropdown__group">
-                                    <div class="dropdown__icon">
-                                        <i class="ri-book-mark-line"></i>
-                                    </div>
 
-                                    <span class="dropdown__title">Careers</span>
-
-                                    <ul class="dropdown__list">
-                                        <li>
-                                            <a href="#" class="dropdown__link">Web development</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="dropdown__link">Applications development</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="dropdown__link">UI/UX design</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="dropdown__link">Informatic security</a>
-                                        </li>
-                                    </ul>
-                                </div>
-
-                                <div class="dropdown__group">
-                                    <div class="dropdown__icon">
-                                        <i class="ri-file-paper-2-line"></i>
-                                    </div>
-
-                                    <span class="dropdown__title">Certifications</span>
-
-                                    <ul class="dropdown__list">
-                                        <li>
-                                            <a href="#" class="dropdown__link">Course certificates</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="dropdown__link">Free certifications</a>
-                                        </li>
-                                    </ul>
-                                </div>
                             </div>
                         </div>
                     </li>
@@ -122,7 +84,7 @@
                     <!--=============== DROPDOWN 2 ===============-->
                     <li class="dropdown__item">
                         <div class="nav__link dropdown__button">
-                            Resources <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            Servicios <i class="ri-arrow-down-s-line dropdown__arrow"></i>
                         </div>
 
                         <div class="dropdown__container">
@@ -132,14 +94,11 @@
                                         <i class="ri-code-line"></i>
                                     </div>
 
-                                    <span class="dropdown__title">Web templates</span>
+                                    <span class="dropdown__title">Información</span>
 
                                     <ul class="dropdown__list">
                                         <li>
-                                            <a href="#" class="dropdown__link">Free templates</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="dropdown__link">Premium templates</a>
+                                            <a href="{{route('servicios')}}" class="dropdown__link">Datos de Servicios</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -149,52 +108,34 @@
                                         <i class="ri-pen-nib-line"></i>
                                     </div>
 
-                                    <span class="dropdown__title">Designs</span>
+                                    <span class="dropdown__title">Casos</span>
 
                                     <ul class="dropdown__list">
                                         <li>
-                                            <a href="#" class="dropdown__link">Web designs</a>
+                                            <a href="#" class="dropdown__link">Experiencia de pacientes</a>
                                         </li>
                                         <li>
-                                            <a href="#" class="dropdown__link">App designs</a>
+                                            <a href="#" class="dropdown__link">Casos impactantes</a>
                                         </li>
                                         <li>
-                                            <a href="#" class="dropdown__link">Component design</a>
+                                            <a href="#" class="dropdown__link">Cirugias exitosas</a>
                                         </li>
                                     </ul>
                                 </div>
 
-                                <div class="dropdown__group">
-                                    <div class="dropdown__icon">
-                                        <i class="ri-apps-2-line"></i>
-                                    </div>
 
-                                    <span class="dropdown__title">Others</span>
-
-                                    <ul class="dropdown__list">
-                                        <li>
-                                            <a href="#" class="dropdown__link">Recent blogs</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="dropdown__link">Tutorial videos</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" class="dropdown__link">Webinar</a>
-                                        </li>
-                                    </ul>
-                                </div>
                             </div>
                         </div>
                     </li>
 
                     <li>
-                        <a href="#" class="nav__link">Pricing</a>
+                        <a href="#" class="nav__link">Preguntas</a>
                     </li>
 
                     <!--=============== DROPDOWN 3 ===============-->
                     <li class="dropdown__item">
                         <div class="nav__link dropdown__button">
-                            Company <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            Contacto <i class="ri-arrow-down-s-line dropdown__arrow"></i>
                         </div>
 
                         <div class="dropdown__container">
