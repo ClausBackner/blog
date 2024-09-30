@@ -7,7 +7,7 @@
     -webkit-font-smoothing: antialiased;
 }
 :root {
-    --primary: #933ded;
+    --primary: #49fff0;
     --dark: #232323;
     --pure: #fff;
     --smoke: whitesmoke;
@@ -123,8 +123,8 @@ nav ul.dropdown-list {
 }
 
 .mobile ul.nav-list {
-    background: -webkit-linear-gradient(45deg, #434343, #000000);
-    background: linear-gradient(45deg, #434343, #000000);
+    background: -webkit-linear-gradient(45deg, #434343, #ffffff);
+    background: linear-gradient(45deg, #434343, #ffffff);
     position: fixed;
     left: 0;
     top: 0;

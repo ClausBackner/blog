@@ -5,22 +5,51 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <link rel="stylesheet" href="{{asset('css/stilomagen.css')}}">
+    <link rel="stylesheet" href="{{asset('css/styleimag.css')}}">
     <title>Blog</title>
 </head>
 <body>
 @include('partials.navegation')
-<div class="tam">
-    <div class="slider">
-        <ul>
-            <li><img src="https://www.colgate.com/content/dam/cp-sites/oral-care/oral-care-center/global/article/gscp/latam/cheerful-man-dentist-talking.jpg" alt=""></li>
-            <li><img src="https://cdn.prod.website-files.com/66183cdcc69331bd58af1786/66646552144fb707a8d2b6a0_22-1024x731.jpeg" alt=""></li>
-            <li><img src="https://www.postgradounab.cl/wp-content/uploads/2022/10/400x243-Conoce-los-5-tipos-de-cirugia-dental-mas-requeridas.jpg" alt=""></li>
-            <li><img src="https://cdn.prod.website-files.com/66183cdcc69331bd58af1786/66646552144fb707a8d2b6a0_22-1024x731.jpeg" alt=""></li>
-        </ul>
 
+<div class="container">
+    <div class="box" style="--clr:#64ffda;">
+        <div class="content">
+            <div class="icon"><ion-icon name="brush-outline"></ion-icon></div>
+            <div class="text">
+                <h3>Desing</h3>
+                <p>Lorem ipsum dolor, sit amet consecutor adipiscing elit.quit, id!</p>
+                <a href="">Read More</a>
+            </div>
+        </div>
     </div>
+
+    <div class="box" style="--clr:#eb5ae5;">
+        <div class="content">
+            <div class="icon"><ion-icon name="code-slash-outline"></ion-icon></div>
+            <div class="text">
+                <h3>Development</h3>
+                <p>Lorem ipsum dolor, sit amet consecutor adipiscing elit.quit, id!</p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="box" style="--clr:#5b98eb;">
+        <div class="content">
+            <div class="icon"><ion-icon name="search-outline"></ion-icon></div>
+            <div class="text">
+                <h3>SEO</h3>
+                <p>Lorem ipsum dolor, sit amet consecutor adipiscing elit.quit, id!</p>
+                <a href="">Read More</a>
+            </div>
+        </div>
+    </div>
+
 </div>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 
 
 </body>

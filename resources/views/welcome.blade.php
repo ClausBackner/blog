@@ -5,22 +5,75 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{asset('css/styleimag.css')}}">
+    <link rel="stylesheet" href="{{asset('css/stilomagen.css')}}">
     <title>Inicio</title>
 </head>
 <body>
 @include('partials.navegation')
 
-<div id="slider">
-    <img src="https://www.colgate.com/content/dam/cp-sites/oral-care/oral-care-center/global/article/gscp/latam/cheerful-man-dentist-talking.jpg" alt="">
-    <img src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_590,h_350/https://www.alfadent.com.pe/wp-content/uploads/2020/04/590x350-restauraciones-2.jpg" alt="">
-    <img src="https://www.postgradounab.cl/wp-content/uploads/2022/10/400x243-Conoce-los-5-tipos-de-cirugia-dental-mas-requeridas.jpg" alt="">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF90aE7_aKNuBnCZNS2HR1PF9xb7A-sRLBMg&s" alt="">
-    <img src="https://cdn.prod.website-files.com/66183cdcc69331bd58af1786/66646552144fb707a8d2b6a0_22-1024x731.jpeg" alt="">
-    <img src="https://www.clinicasonrisasegura.pe/wp-content/uploads/2023/08/Extraccion-de-dientes.webp" alt="">
-    <img src="https://soluciondental.pe/wp-content/uploads/2019/01/profilaxis-dental-profunda.jpg" alt="">
+<div class="slider">
+    <ul>
+        <li><img src="https://www.colgate.com/content/dam/cp-sites/oral-care/oral-care-center/global/article/gscp/latam/cheerful-man-dentist-talking.jpg" alt=""></li>
+        <li><img src="https://cdn.prod.website-files.com/66183cdcc69331bd58af1786/66646552144fb707a8d2b6a0_22-1024x731.jpeg" alt=""></li>
+        <li><img src="https://www.postgradounab.cl/wp-content/uploads/2022/10/400x243-Conoce-los-5-tipos-de-cirugia-dental-mas-requeridas.jpg" alt=""></li>
+        <li><img src="https://cdn.prod.website-files.com/66183cdcc69331bd58af1786/66646552144fb707a8d2b6a0_22-1024x731.jpeg" alt=""></li>
+    </ul>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="card">
+            <div class="card-header">
+                <h1>React</h1>
+            </div>
+            <div class="card-body">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <h1>Vue</h1>
+            </div>
+            <div class="card-body">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <h1>Angular</h1>
+            </div>
+            <div class="card-body">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <h1>JQuery</h1>
+            </div>
+            <div class="card-body">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+    </div>
 </div>
 
-<script  src="{{asset('js/jslider.js')}}"></script>
+<script type="text/javascript">
+    let slider = document.querySelector('div.slider');
+    window.addEventListener('scroll', function (){
+        let value = 1 + window.scrollY/-600;
+        slider.style.opacity=value;
+    })
+</script>
 </body>
 </html>
