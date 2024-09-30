@@ -8,7 +8,7 @@
 }
 :root {
     --primary: #49fff0;
-    --dark: #232323;
+    --dark: #f8f8f8;
     --pure: #fff;
     --smoke: whitesmoke;
     --dark-gray: #999;
@@ -123,8 +123,8 @@ nav ul.dropdown-list {
 }
 
 .mobile ul.nav-list {
-    background: -webkit-linear-gradient(45deg, #434343, #ffffff);
-    background: linear-gradient(45deg, #434343, #ffffff);
+    background: -webkit-linear-gradient(45deg, #ffffff, #ffffff);
+    background: linear-gradient(45deg, #ffffff, #ffffff);
     position: fixed;
     left: 0;
     top: 0;

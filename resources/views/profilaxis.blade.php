@@ -8,7 +8,7 @@
     <title>Profilaxis</title>
 </head>
 <body>
-@include('partials.navegation')
+    @include('partials.navegacion')
 <h1>Profilaxis</h1>
 </body>
 </html>

@@ -8,7 +8,7 @@
     <title>Blanqueamiento</title>
 </head>
 <body>
-@include('partials.navegation')
+    @include('partials.navegacion')
 <h1>Blanqueamiento</h1>
 </body>
 </html>

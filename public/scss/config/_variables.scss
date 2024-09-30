@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root{
@@ -7,24 +7,29 @@
 
     /*========== Colors ==========*/
     /*Color mode HSL(hue, saturation, lightness)*/
-    --white-color: hsl(0, 0%, 100%);
-    --black-color: hsl(0, 0%, 0%);
+    --first-color: hsl(220, 68%, 54%);
+    --first-color-lighten: hsl(220, 68%, 97%);
+    --title-color: hsl(220, 48%, 28%);
+    --text-color: hsl(220, 12%, 45%);
+    --body-color: hsl(220, 100%, 99%);
 
     /*========== Font and typography ==========*/
     /*.5rem = 8px | 1rem = 16px ...*/
-    --body-font: "Montserrat Alternates", sans-serif;
-
-    --h1-font-size: 1.5rem;
+    --body-font: 'Poppins', sans-serif;
     --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
 
     // Responsive typography
-    @media screen and (min-width: 1150px){
+    @media screen and (min-width: 1024px){
         --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+        --smaller-font-size: .813rem;
     }
 
     /*========== Font weight ==========*/
-    --font-regular: 400;
     --font-medium: 500;
+    --font-semi-bold: 600;
 
     /*========== z index ==========*/
     --z-tooltip: 10;

@@ -8,7 +8,7 @@
     <title>Cirugia</title>
 </head>
 <body>
-@include('partials.navegation')
+    @include('partials.navegacion')
 <h1>Cirugia</h1>
 </body>
 </html>

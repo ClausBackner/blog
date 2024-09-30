@@ -9,48 +9,9 @@
     <title>Blog</title>
 </head>
 <body>
-@include('partials.navegation')
-
-<div class="container">
-    <div class="box" style="--clr:#64ffda;">
-        <div class="content">
-            <div class="icon"><ion-icon name="brush-outline"></ion-icon></div>
-            <div class="text">
-                <h3>Desing</h3>
-                <p>Lorem ipsum dolor, sit amet consecutor adipiscing elit.quit, id!</p>
-                <a href="">Read More</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="box" style="--clr:#eb5ae5;">
-        <div class="content">
-            <div class="icon"><ion-icon name="code-slash-outline"></ion-icon></div>
-            <div class="text">
-                <h3>Development</h3>
-                <p>Lorem ipsum dolor, sit amet consecutor adipiscing elit.quit, id!</p>
-                <a href="">Read More</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="box" style="--clr:#5b98eb;">
-        <div class="content">
-            <div class="icon"><ion-icon name="search-outline"></ion-icon></div>
-            <div class="text">
-                <h3>SEO</h3>
-                <p>Lorem ipsum dolor, sit amet consecutor adipiscing elit.quit, id!</p>
-                <a href="">Read More</a>
-            </div>
-        </div>
-    </div>
+{{-- @include('partials.navegation') --}}
+@include('partials.navegacion')
 
 </div>
-
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-
-
 </body>
 </html>

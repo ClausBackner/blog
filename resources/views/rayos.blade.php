@@ -8,7 +8,7 @@
     <title>Rayos X</title>
 </head>
 <body>
-@include('partials.navegation')
+    @include('partials.navegacion')
 <h1>Rayos X</h1>
 </body>
 </html>

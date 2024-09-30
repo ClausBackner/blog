@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{asset('css/estilos.css')}}">
 </head>
 <body>
-@include('partials.navegation')
+    @include('partials.navegacion')
 <!--   Tarjetas-->
 <div class="title-cards">
     <h2>Servicios que Ofrecemos</h2>

@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-@include('partials.navegation')
+    @include('partials.navegacion')
 <h1>Endodoncia</h1>
 </body>
 </html>
