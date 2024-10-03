@@ -10,5 +10,6 @@
 <body>
 @include('partials.navegacion')
 <h1>Nosotros</h1>
+@include('partials.cartas')
 </body>
 </html>

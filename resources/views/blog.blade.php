@@ -9,9 +9,8 @@
     <title>Blog</title>
 </head>
 <body>
-{{-- @include('partials.navegation') --}}
-@include('partials.navegacion')
 
-</div>
+@include('partials.navegacion')
+@include('partials.formulario')
 </body>
 </html>

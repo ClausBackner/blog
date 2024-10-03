@@ -22,8 +22,9 @@
 
 </div>
 
-@include('partials.cartas')
-
+@include('partials.navegation')
+<h1>Nuestros servicios</h1>
+@include('partials.sliderautomatic')
 <script type="text/javascript">
     let slider = document.querySelector('div.slider');
     window.addEventListener('scroll', function (){

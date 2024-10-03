@@ -149,7 +149,7 @@
 
                                     <ul class="dropdown__list">
                                         <li>
-                                            <a href="#" class="dropdown__link">About us</a>
+                                            <a href="{{ asset('nosotros') }}" class="dropdown__link">About us</a>
                                         </li>
                                         <li>
                                             <a href="#" class="dropdown__link">Support</a>
