@@ -8,51 +8,124 @@
 
 </head>
 <body>
-    <h4 class="fw-bold text-center">
-      <sl-icon name="caret-right-square-fill" aria-hidden="true" library="default" class="pe-3"></sl-icon>Horizontal Accordion
-    </h4>
-    <div class="hr-line mt-4 mb-4"></div>
-    <h4 class="fw-bold text-center mt-5 mb-5">Learn Anything in 3 steps</h4>
-    <div class="custom-container d-flex flex-row align-items-stretch">
-      <div class="section section-1 grow shadow-dark" id="section-1" role="tabpanel" aria-labelledby="Preview">
-        <div class="d-flex flex-row">
-          <button onclick="check_section_1()" role="tab" class="button-thin" aria-label="Click to expand Section 1" aria-expanded="true" aria-controls="text-1">
-            <sl-icon name="chevron-right" aria-hidden="true" library="default"></sl-icon>
-          </button>
+    <div class="slider">
+        <button class="slider--btn slider--btn__prev">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m15 18-6-6 6-6" />
+            </svg>
+        </button>
+
+        <div class="slides__wrapper">
+            <div class="slides">
+                <!-- slide 1 -->
+                <div class="slide" data-current>
+                    <div class="slide__inner">
+                        <div class="slide--image__wrapper">
+                            <img class="slide--image" src="https://devloop01.github.io/voyage-slider/images/scotland-mountains.jpg" alt="Image 1" />
+                        </div>
+                    </div>
+                </div>
+                <div class="slide__bg" style="--bg: url(https://devloop01.github.io/voyage-slider/images/scotland-mountains.jpg); --dir: 0" data-current></div>
+
+                <!-- slide 2 -->
+                <div class="slide" data-next>
+                    <div class="slide__inner">
+                        <div class="slide--image__wrapper">
+                            <img class="slide--image" src="
+    https://devloop01.github.io/voyage-slider/images/machu-pichu.jpg" alt="Image 2" />
+                        </div>
+                    </div>
+                </div>
+                <div class="slide__bg" style="--bg: url(https://devloop01.github.io/voyage-slider/images/machu-pichu.jpg); --dir: 1" data-next></div>
+
+                <!-- slide 3 -->
+                <div class="slide" data-previous>
+                    <div class="slide__inner">
+                        <div class="slide--image__wrapper">
+                            <img class="slide--image" src="https://devloop01.github.io/voyage-slider/images/chamonix.jpg" alt="Image 3" />
+                        </div>
+                    </div>
+                </div>
+                <div class="slide__bg" style="--bg: url(https://devloop01.github.io/voyage-slider/images/chamonix.jpg); --dir: -1" data-previous></div>
+            </div>
+            <div class="slides--infos">
+                <!-- Slide Info 1 -->
+                <div class="slide-info" data-current>
+                    <div class="slide-info__inner">
+                        <div class="slide-info--text__wrapper">
+                            <div data-title class="slide-info--text">
+                                <span>Highlands</span>
+                            </div>
+                            <div data-subtitle class="slide-info--text">
+                                <span>Scotland</span>
+                            </div>
+                            <div data-description class="slide-info--text">
+                                <span>The mountains are calling</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide Info 2 -->
+                <div class="slide-info" data-next>
+                    <div class="slide-info__inner">
+                        <div class="slide-info--text__wrapper">
+                            <div data-title class="slide-info--text">
+                                <span>Machu Pichu</span>
+                            </div>
+                            <div data-subtitle class="slide-info--text">
+                                <span>Peru</span>
+                            </div>
+                            <div data-description class="slide-info--text">
+                                <span>Adventure is never far away</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide Info 3 -->
+                <div class="slide-info" data-previous>
+                    <div class="slide-info__inner">
+                        <div class="slide-info--text__wrapper">
+                            <div data-title class="slide-info--text">
+                                <span>Chamonix</span>
+                            </div>
+                            <div data-subtitle class="slide-info--text">
+                                <span>France</span>
+                            </div>
+                            <div data-description class="slide-info--text">
+                                <span>Let your dreams come true</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <h3>Preview</h3>
-        <p id="text-1" class="main-text show">Preview your text and other study materials before class to develop a big picture of what you’ll be covering. Skim through the chapters, noting all headings, subheadings, bold words, graphs, pictures and summaries. Once you’ve developed a big picture, it will be much easier to remember and learn the details. Also, attending a class or a lecture with this basic understanding of the material makes it feel less overwhelming and creates opportunities to formulate any questions during class.</p>
-      </div>
-      <div class="section section-2 shrink shadow-pink" id="section-2" role="tabpanel" aria-labelledby="Study">
-        <div class="d-flex flex-row">
-          <button onclick="check_section_2()" role="tab" class="button-thin" aria-label="Click to expand Section 2" aria-expanded="false" aria-controls="text-2">
-            <sl-icon name="chevron-right" aria-hidden="true" library="default"></sl-icon>
-          </button>
-        </div>
-        <h3>Study</h3>
-        <p id="text-2" class="main-text hide animate">To reinforce the new material you learned during class, and to make sure you thoroughly understand the subject matter being taught. Take about 30-50 minutes to interact with material ‐ organize material, draw concept maps, summarize information, review your notes, read your textbook, work problems, or even form a study group. As you study, ask yourself ‘how’, ‘why’ and ‘what if’ questions. Don’t forget, repetition is the key, set yourself realistic goals and don't forget to take breaks!
-        </p>
-      </div>
-      <div class="section section-3 shrink shadow-blue" id="section-3" role="tabpanel" aria-labelledby="Revise">
-        <div class="d-flex flex-row">
-          <button onclick="check_section_3()" role="tab" class="button-thin" aria-label="Click to expand Section 3" aria-expanded="false" aria-controls="text-3">
-            <sl-icon name="chevron-right" aria-hidden="true" library="default"></sl-icon>
-          </button>
-        </div>
-        <h3>Revise</h3>
-        <p id="text-3" class="main-text hide animate">Reflect and evaluate your mastery and understanding of the material you learned and studied. Ask yourself, “Is the information I’m studying making sense?”, “Am I confident with the new material?”, “Do I understand the material well enough that I can teach it to someone else?” Assessing your studying from time to time is an essential aspect of learning and gives you an opportunity to reflect and improve. Finally, always look for opportunities to advance the knowledge you just learned.</p>
-      </div>
+
+        <button class="slider--btn slider--btn__next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="m9 18 6-6-6-6" />
+            </svg>
+        </button>
     </div>
-    <div class="hr-line mt-5 mb-4"></div>
-    <p class="footer fs-6 fw-bold text-center text-muted">Powered by:</p>
-    <p class="text-center">
-      <a title="Bootstrap" aria-label="More information about Bootstrap" href="https://getbootstrap.com" target="_blank">
-        <img src="https://assets.codepen.io/9400490/Bootstrap.svg" alt="Bootstrap" width="30" height="30">
-      </a>
-      <a title="Shoelace" aria-label="More information about Shoelace" href="https://shoelace.style/components/icon" target="_blank">
-        <img src="https://assets.codepen.io/9400490/Shoelace.svg" alt="Shoelace" width="30" height="30">
-      </a>
-    </p>
+
+    <div class="loader">
+        <span class="loader__text">0%</span>
+    </div>
+
+    <div class="support">
+        <a href="https://twitter.com/DevLoop01" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
+            </svg>
+        </a>
+        <a href="https://github.com/devloop01/voyage-slider" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                <path d="M9 18c-4.51 2-5-2-7-2" />
+            </svg>
+        </a>
+    </div>
     <script src="{{ asset('js/carts.js') }}"></script>
   </body>
 </html>

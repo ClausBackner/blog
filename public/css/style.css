@@ -56,7 +56,7 @@ body{
     transition: .3s ease-in-out;
 }
 .card-details:hover:before{
-    background-color: #fffab3;
+    background-color: #b3e3ff;
 }
 .card-icons {
     width: 140px;

@@ -48,7 +48,7 @@
                                             <a href="{{route('blog')}}" class="dropdown__link">Por categorias</a>
                                         </li>
                                         <li>
-                                            <a href="{{route('blog')}}" class="dropdown__link">Consulta</a>
+                                            <a href="{{route('usuario.formula')}}" class="dropdown__link">Consulta</a>
                                         </li>
                                         <li>
                                             <a href="{{route('blog')}}" class="dropdown__link">Emergencia</a>

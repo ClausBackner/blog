@@ -16,9 +16,9 @@
 						<div class="card-icons">
 							<img class="light-icon" src="https://static.vecteezy.com/system/resources/previews/001/197/963/original/tooth-png.png" alt="icon" />
 						</div>
-						<h3><a href="https://www.fiverr.com/aliali44">Core Planning</a></h3>
-						<p>Lorem ipsum dolor sit amet, consectne auctor aliquet. Aenean sollicitudi bibendum auctor.</p>
-						<a class="read-more-btn" href="https://www.fiverr.com/aliali44"><i class="fa-solid fa-angles-right"></i></a>
+						<h3><a href="{{ asset('blog') }}">Reservas</h3>
+						<p>¡Tu salud es prioridad! Agenda tu cita médica hoy mismo de manera rápida y sencilla. ¡Cuidarte nunca fue tan fácil!</p>
+						<a class="read-more-btn" href="{{ asset('blog') }}"><i class="fa-solid fa-angles-right"></i></a>
 					</div>
 				</div>
 				<div class="card-column">
@@ -26,9 +26,9 @@
 						<div class="card-icons">
 							<img class="light-icon" src="https://static.vecteezy.com/system/resources/previews/001/197/962/original/tooth-png.png" alt="icon" />
 						</div>
-						<h3><a href="https://www.fiverr.com/aliali44">Traditional Designs</a></h3>
-						<p>Lorem ipsum dolor sit amet, consectne auctor aliquet. Aenean sollicitudi bibendum auctor.</p>
-						<a class="read-more-btn" href="https://www.fiverr.com/aliali44"><i class="fa-solid fa-angles-right"></i></a>
+						<h3><a href="{{ asset('servicios') }}">Servicios</a></h3>
+						<p>Descubre todos los servicios que ofrecemos para tu bienestar. ¡Explora nuestro catálogo y encuentra el cuidado que necesitas en un solo lugar!</p>
+						<a class="read-more-btn" href="{{ asset('servicios') }}"><i class="fa-solid fa-angles-right"></i></a>
 					</div>
 				</div>
 				<div class="card-column">
@@ -36,9 +36,9 @@
 						<div class="card-icons">
 							<img class="light-icon" src="https://imgpanda.com/upload/ib/YQdOwN6IDJ.png" alt="icon" />
 						</div>
-						<h3><a href="https://www.fiverr.com/aliali44">Quality Materials</a></h3>
-						<p>Lorem ipsum dolor sit amet, consectne auctor aliquet. Aenean sollicitudi bibendum auctor.</p>
-						<a class="read-more-btn" href="https://www.fiverr.com/aliali44"><i class="fa-solid fa-angles-right"></i></a>
+						<h3><a href="{{ asset('nosotros') }}">Nosotros</a></h3>
+						<p>¡Contáctanos por teléfono, WhatsApp, correo o redes sociales y recibe la atención que necesitas!</p>
+						<a class="read-more-btn" href="{{ asset('nosotros') }}"><i class="fa-solid fa-angles-right"></i></a>
 					</div>
 				</div>
 			</div>

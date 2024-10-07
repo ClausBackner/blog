@@ -32,5 +32,6 @@
         slider.style.opacity=value;
     })
 </script>
+
 </body>
 </html>

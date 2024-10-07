@@ -10,6 +10,9 @@
 <body>
 @include('partials.navegacion')
 <h1>Nosotros</h1>
-@include('partials.cartas')
+@include('partials.slidercart')
+@include('partials.formu')
+<iframe src="http://flowpaper.com/flipbook/https://flowpaper.com/example.pdf" width="70%" height="800" style="border: none;" allowFullScreen>
+</iframe>
 </body>
 </html>

@@ -42,8 +42,8 @@ body {
 .right {
     right: 520px;
     bottom: -76px;
-    background-color: #000;
-    background-image: url(http://glyphbox.be/ng/pijlstjes.svg);
+    background-color: #3c5bc0ce;
+    background-image: url(https://cdn.icon-icons.com/icons2/1339/PNG/512/righarrow_87553.png);
     background-size: 250px 250px;
     background-repeat: no-repeat;
     background-position: -181px;
@@ -59,12 +59,11 @@ body {
 .left {
     bottom: -76px;
     right: calc(520px + 76px);
-    background-color: #000;
-    background-image: url(http://glyphbox.be/ng/pijlstjes.svg);
+    background-color: #3c5bc0ce;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/545/545680.png);
     background-size: 250px 250px;
     background-repeat: no-repeat;
     background-position: 7px;
-    border: 1px solid black;
 }
 @keyframes arrowslideL {
     0% {

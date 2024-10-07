@@ -1,12 +1,14 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\UsuarioController;
 use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome')->name('home');
 Route::view('nosotros', 'about')->name('nosotros');
 Route::view('servicios', 'service')->name('servicios');
 Route::view('blog', 'blog')->name('blog');
+Route::get('/usuario',[UsuarioController::class, 'index'])->name('usuario.formula');
 //vistas de Servicios
 Route::prefix('servicios')->name('servicios.')->group(function () {
     Route::view('restauraciones', 'restauraciones')->name('restauraciones');
