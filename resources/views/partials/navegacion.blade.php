@@ -48,7 +48,7 @@
                                             <a href="{{route('paciente.crear')}}" class="dropdown__link">Por categorias</a>
                                         </li>
                                         <li>
-                                            <a href="#" class="dropdown__link">Consulta</a>
+                                            <a href="{{ route('paciente.buscar') }}" class="dropdown__link">Consulta</a>
                                         </li>
                                         <li>
                                             <a href="#" class="dropdown__link">Emergencia</a>

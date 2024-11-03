@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Pacientes;
+use Illuminate\Support\Facades\DB;
 
 class PacienteController extends Controller
 {
@@ -43,30 +44,15 @@ class PacienteController extends Controller
 
         return redirect()->back()->with('success','Cita reservada éxito');
     }
-    public function comprobante(){
-        return view("paciente.comprobante");
-    }
-    public function buscar(Request $request)
-{
-    // Validar que el código esté presente en la solicitud
-    $request->validate([
-        'codigo' => 'required|string',
-    ]);
-
-    // Obtener el código ingresado
-    $codigo = $request->input('codigo');
-
-    // Buscar el paciente por el campo 'iniciales_dni'
-    $paciente = Pacientes::where('iniciales_dni', $codigo)->first();
-
-    // Verificar si se encontró el paciente
-    if ($paciente) {
-        // Si el paciente existe, devolver la vista con los datos del paciente
-        return view('paciente.comprobante', compact('paciente'));
-    } else {
-        // Si no se encuentra, redireccionar con un mensaje de error
-        return redirect()->back()->with('error', 'Paciente no encontrado.');
-    }
+    public function buscar(Request $request){
+        $query = $request->input('query');
+        $iniciales_dni=trim($request->get('iniciales_dni'));
+        $paciente=DB::table('paciente')
+        ->select('nombre','apellido','dni','edad','telefono','direccion','servicio','fecha','descripcion','iniciales_dni')
+        ->where('iniciales_dni', 'LIKE', '%' . $iniciales_dni . '%')
+        ->orderBy('apellido', 'asc')
+        ->get();
+        return view('paciente.buscar', compact('paciente','iniciales_dni'));
 }
 
 }
