@@ -45,13 +45,13 @@
 
                                     <ul class="dropdown__list">
                                         <li>
-                                            <a href="{{route('blog')}}" class="dropdown__link">Por categorias</a>
+                                            <a href="{{route('paciente.crear')}}" class="dropdown__link">Por categorias</a>
                                         </li>
                                         <li>
-                                            <a href="{{route('usuario.formula')}}" class="dropdown__link">Consulta</a>
+                                            <a href="#" class="dropdown__link">Consulta</a>
                                         </li>
                                         <li>
-                                            <a href="{{route('blog')}}" class="dropdown__link">Emergencia</a>
+                                            <a href="#" class="dropdown__link">Emergencia</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -65,13 +65,13 @@
 
                                     <ul class="dropdown__list">
                                         <li>
-                                            <a href="{{route('blog')}}" class="dropdown__link">Cita Registrada</a>
+                                            <a href="{{ route('paciente.comprobante') }}" class="dropdown__link">Cita Registrada</a>
                                         </li>
                                         <li>
-                                            <a href="{{route('blog')}}" class="dropdown__link">Historial medico</a>
+                                            <a href="#" class="dropdown__link">Historial medico</a>
                                         </li>
                                         <li>
-                                            <a href="{{route('blog')}}" class="dropdown__link">Comprobacion de Citas</a>
+                                            <a href="#" class="dropdown__link">Comprobacion de Citas</a>
                                         </li>
                                     </ul>
                                 </div>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PacienteController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UsuarioController;
 use Illuminate\Support\Facades\Route;
@@ -7,8 +8,12 @@ use Illuminate\Support\Facades\Route;
 Route::view('/', 'welcome')->name('home');
 Route::view('nosotros', 'about')->name('nosotros');
 Route::view('servicios', 'service')->name('servicios');
-Route::view('blog', 'blog')->name('blog');
-Route::get('/usuario',[UsuarioController::class, 'index'])->name('usuario.formula');
+Route::get('/paciente/crear', [PacienteController::class, 'crear'])->name('paciente.crear');
+Route::post('/paciente/store', [PacienteController::class, 'store'])->name('paciente.store');
+Route::get('/paciente/comprobante', [PacienteController::class, 'comprobante'])->name('paciente.comprobante');
+Route::get('/paciente/buscar', [PacienteController::class, 'buscar'])->name('paciente.buscar');
+
+
 //vistas de Servicios
 Route::prefix('servicios')->name('servicios.')->group(function () {
     Route::view('restauraciones', 'restauraciones')->name('restauraciones');
