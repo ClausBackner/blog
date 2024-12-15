@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\PacienteController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ReportController;
 use App\Http\Controllers\UsuarioController;
 use Illuminate\Support\Facades\Route;
 
@@ -26,6 +27,9 @@ Route::prefix('servicios')->name('servicios.')->group(function () {
     Route::view('protesis','protesis')->name('protesis');
     Route::view('cirugia','cirugia')->name('cirugia');
 });
+Route::get('/reportCountByService', [ReportController::class,'reportCountByService']);
+Route::get('/reportCountPacientByDay', [ReportController::class,'reportCountPacientByDay']);
+Route::get('/reportPacientByDayPDF', [ReportController::class,'reportPacientByDayPDF']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
